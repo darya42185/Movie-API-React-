@@ -1,0 +1,16 @@
+.tabs {
+  display: flex;
+  justify-content: start;
+  margin: 10px 75px;
+  // background-color: rgb(151, 143, 143);
+}
+
+.nav-item {
+  padding: 20px;
+  cursor: pointer;
+  text-decoration: underline;
+
+  & div:hover {
+    font-weight: 600;
+  }
+}
